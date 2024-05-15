@@ -1,0 +1,28 @@
+{
+    "chain_name": "initia-testnet",
+    "api": [
+        {
+            "address": "https://initia-testnet-api.nodesphere.net", 
+            "provider": "NodeSphere"
+        }
+    ], 
+    "rpc": [
+        {
+            "address": "https://initia-testnet-rpc.nodesphere.net", 
+            "provider": "NodeSphere"
+        }
+    ],
+    "sdk_version": "0.47.3",
+    "snapshot_provider": "",
+    "coin_type": "118",
+    "min_tx_fee": "1000",
+    "addr_prefix": "init",
+    "logo": "/logos/initia.jpg",
+    "theme_color": "#812cd6",
+    "assets": [{
+        "base": "uinit",
+        "symbol": "INIT",
+        "exponent": "6",
+        "logo": "/logos/initia.jpg"
+    }]
+}
