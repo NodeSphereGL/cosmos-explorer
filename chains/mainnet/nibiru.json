@@ -1,0 +1,28 @@
+{
+    "chain_name": "nibiru-mainnet",
+    "api": [
+        {
+            "address": "https://lcd.nibiru.fi", 
+            "provider": "NodeSphere"
+        }
+    ], 
+    "rpc": [
+        {
+            "address": "https://rpc.nibiru.fi", 
+            "provider": "NodeSphere"
+        }
+    ],
+    "sdk_version": "0.37.4",
+    "snapshot_provider": "",
+    "coin_type": "118",
+    "min_tx_fee": "800",
+    "addr_prefix": "nibi",
+    "logo": "/logos/nibi.jpeg",
+    "theme_color": "#812cd6",
+    "assets": [{
+        "base": "unibi",
+        "symbol": "NIBI",
+        "exponent": "6",
+        "logo": "/logos/nibi.jpeg"
+    }]
+}
