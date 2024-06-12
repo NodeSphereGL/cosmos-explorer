@@ -1,0 +1,23 @@
+{
+    "chain_name": "shentu",
+    "coingecko": "certik",
+    "api": [
+        {"provider": "NodeSphere", "address": "https://shentu-api.nodesphere.net"}
+    ],
+    "rpc": [
+        {"provider": "NodeSphere", "address": "https://shentu-rpc.nodesphere.net"}
+    ],
+    "snapshot_provider": "",
+    "sdk_version": "0.34.29",
+    "coin_type": "118",
+    "min_tx_fee": "5000",
+    "addr_prefix": "shentu",
+    "logo": "/logos/shentu_ctk.svg",
+    "assets": [{
+        "base": "uctk",
+        "symbol": "CTK",
+        "exponent": "6",
+        "coingecko_id": "certik",
+        "logo": "/logos/shentu_ctk.svg"
+    }]
+}
