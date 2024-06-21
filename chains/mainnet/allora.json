@@ -1,0 +1,36 @@
+{
+    "chain_name": "allora-testnet",
+    "api": [
+        {
+            "address": "https://allora-testnet-api.nodesphere.net", 
+            "provider": "NodeSphere"
+        },
+        {
+            "address": "https://allora-api.testnet.allora.network", 
+            "provider": "Upshot"
+        }
+    ], 
+    "rpc": [
+        {
+            "address": "https://allora-testnet-rpc.nodesphere.net", 
+            "provider": "NodeSphere"
+        },
+        {
+            "address": "https://allora-rpc.testnet.allora.network", 
+            "provider": "Upshot"
+        }
+    ],
+    "sdk_version": "0.38.2",
+    "snapshot_provider": "",
+    "coin_type": "118",
+    "min_tx_fee": "2020",
+    "addr_prefix": "allo",
+    "logo": "/logos/allora.jpeg",
+    "theme_color": "#812cd6",
+    "assets": [{
+        "base": "uallo",
+        "symbol": "ALLO",
+        "exponent": "18",
+        "logo": "/logos/allora.jpeg"
+    }]
+}
