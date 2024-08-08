@@ -1,0 +1,36 @@
+{
+    "chain_name": "fiamma-testnet",
+    "api": [
+        {
+            "address": "https://fiamma-testnet-api.nodesphere.net", 
+            "provider": "NodeSphere"
+        },
+        {
+            "address": "https://testnet-api.fiammachain.io", 
+            "provider": "Fiammachain"
+        }
+    ], 
+    "rpc": [
+        {
+            "address": "https://fiamma-testnet-rpc.nodesphere.net", 
+            "provider": "NodeSphere"
+        },
+        {
+            "address": "https://testnet-rpc.fiammachain.io", 
+            "provider": "Fiammachain"
+        }
+    ],
+    "sdk_version": "0.38.8",
+    "snapshot_provider": "",
+    "coin_type": "118",
+    "min_tx_fee": "200",
+    "addr_prefix": "fiamma",
+    "logo": "/logos/fiamma.png",
+    "theme_color": "#812cd6",
+    "assets": [{
+        "base": "ufia",
+        "symbol": "FIA",
+        "exponent": "6",
+        "logo": "/logos/fiamma.png"
+    }]
+}
