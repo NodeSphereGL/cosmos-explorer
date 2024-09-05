@@ -2,22 +2,22 @@
     "chain_name": "tellor-testnet",
     "api": [
         {
-            "address": "https://tellor-testnet-api.nodesphere.net", 
-            "provider": "NodeSphere"
-        },
-        {
             "address": "https://tellorlayer.com", 
             "provider": "Tellor Layer"
+        },
+        {
+            "address": "https://tellor-testnet-api.nodesphere.net", 
+            "provider": "NodeSphere"
         }
     ], 
     "rpc": [
         {
-            "address": "https://tellor-testnet-rpc.nodesphere.net", 
-            "provider": "NodeSphere"
-        },
-        {
             "address": "http://tellorlayer.com:26657", 
             "provider": "Tellor Layer"
+        },
+        {
+            "address": "https://tellor-testnet-rpc.nodesphere.net", 
+            "provider": "NodeSphere"
         }
     ],
     "sdk_version": "0.38.10",
