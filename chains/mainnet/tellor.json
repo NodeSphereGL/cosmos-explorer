@@ -1,0 +1,36 @@
+{
+    "chain_name": "tellor-testnet",
+    "api": [
+        {
+            "address": "https://tellor-testnet-api.nodesphere.net", 
+            "provider": "NodeSphere"
+        },
+        {
+            "address": "https://tellorlayer.com", 
+            "provider": "Tellor Layer"
+        }
+    ], 
+    "rpc": [
+        {
+            "address": "https://tellor-testnet-rpc.nodesphere.net", 
+            "provider": "NodeSphere"
+        },
+        {
+            "address": "http://tellorlayer.com:26657", 
+            "provider": "Tellor Layer"
+        }
+    ],
+    "sdk_version": "0.38.10",
+    "snapshot_provider": "",
+    "coin_type": "118",
+    "min_tx_fee": "3000",
+    "addr_prefix": "tellor",
+    "logo": "/logos/tellor.png",
+    "theme_color": "#812cd6",
+    "assets": [{
+        "base": "loya",
+        "symbol": "LOYA",
+        "exponent": "6",
+        "logo": "/logos/tellor.png"
+    }]
+}
