@@ -1,0 +1,23 @@
+{
+    "chain_name": "entangle",
+    "coingecko": "entangle",
+    "api": [
+        {"provider": "NodeSphere", "address": "https://entangle-api.nodesphere.net"}
+    ],
+    "rpc": [
+        {"provider": "NodeSphere", "address": "https://entangle-rpc.nodesphere.net"}
+    ],
+    "snapshot_provider": "",
+    "sdk_version": "0.37.2",
+    "coin_type": "60",
+    "min_tx_fee": "25000",
+    "addr_prefix": "entangle",
+    "logo": "/logos/entangle.svg",
+    "assets": [{
+        "base": "aNGL",
+        "symbol": "NGL",
+        "exponent": "18",
+        "coingecko_id": "entangle",
+        "logo": "/logos/entangle.svg"
+    }]
+}
