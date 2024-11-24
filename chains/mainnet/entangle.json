@@ -11,7 +11,7 @@
     "sdk_version": "0.37.2",
     "coin_type": "60",
     "min_tx_fee": "25000",
-    "addr_prefix": "entangle",
+    "addr_prefix": "ent",
     "logo": "/logos/entangle.svg",
     "assets": [{
         "base": "aNGL",
