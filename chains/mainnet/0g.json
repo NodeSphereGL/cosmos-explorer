@@ -1,0 +1,28 @@
+{
+    "chain_name": "0g-testnet",
+    "api": [
+        {
+            "address": "https://0g-testnet-api.nodesphere.net", 
+            "provider": "NodeSphere"
+        }
+    ], 
+    "rpc": [
+        {
+            "address": "https://0g-testnet-rpc.nodesphere.net", 
+            "provider": "NodeSphere"
+        }
+    ],
+    "sdk_version": "0.37.9",
+    "snapshot_provider": "",
+    "coin_type": "60",
+    "min_tx_fee": "6000",
+    "addr_prefix": "0g",
+    "logo": "/logos/og.jpg",
+    "theme_color": "#812cd6",
+    "assets": [{
+        "base": "ua0gi",
+        "symbol": "A0GI",
+        "exponent": "6",
+        "logo": "/logos/og.jpg"
+    }]
+}
