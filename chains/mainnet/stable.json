@@ -22,7 +22,7 @@
     "assets": [{
         "base": "astable",
         "symbol": "USDT",
-        "exponent": "12",
+        "exponent": "18",
         "logo": "/logos/stable.jpg"
     }]
 }
