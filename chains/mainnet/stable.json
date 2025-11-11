@@ -20,9 +20,9 @@
     "logo": "/logos/stable.jpg",
     "theme_color": "#812cd6",
     "assets": [{
-        "base": "ausdt",
+        "base": "astable",
         "symbol": "USDT",
-        "exponent": "6",
+        "exponent": "12",
         "logo": "/logos/stable.jpg"
     }]
 }
