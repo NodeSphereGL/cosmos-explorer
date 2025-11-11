@@ -1,14 +1,14 @@
 {
-    "chain_name": "warden-testnet",
+    "chain_name": "stable-testnet",
     "api": [
         {
-            "address": "https://warden-testnet-api.nodesphere.net", 
+            "address": "https://stable-testnet-api.nodesphere.net", 
             "provider": "NodeSphere"
         }
     ], 
     "rpc": [
         {
-            "address": "https://warden-testnet-rpc.nodesphere.net", 
+            "address": "https://stable-testnet-rpc.nodesphere.net", 
             "provider": "NodeSphere"
         }
     ],
@@ -16,13 +16,13 @@
     "snapshot_provider": "",
     "coin_type": "118",
     "min_tx_fee": "800",
-    "addr_prefix": "warden",
-    "logo": "/logos/warden.svg",
+    "addr_prefix": "stable",
+    "logo": "/logos/stable.jpg",
     "theme_color": "#812cd6",
     "assets": [{
-        "base": "uward",
-        "symbol": "WARD",
+        "base": "ausdt",
+        "symbol": "USDT",
         "exponent": "6",
-        "logo": "/logos/warden.svg"
+        "logo": "/logos/stable.jpg"
     }]
 }
